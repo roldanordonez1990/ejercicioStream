@@ -11,7 +11,7 @@ public class Principal {
 	public static void main(String[] args) {
 		List<Product> shoppingCart = List.of(
 
-				new Product("Clothes", new BigDecimal("15.90"), Tax.NORMAL),
+				new Product("Clothesssssssss", new BigDecimal("15.90"), Tax.NORMAL),
 
 				new Product("Bread", new BigDecimal("1.5"), Tax.SUPERREDUCED),
 
