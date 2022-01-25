@@ -34,8 +34,9 @@ public class Principal {
 		// }
 		
 		String result2 = shoppingCart.stream().filter(num -> num.name.startsWith("C")).map(num -> num.name).collect(Collectors.joining(","));
-
-		System.out.println(result2.toString());
+		
+		System.out.println(result);
+		//System.out.println(result2.toString());
 
 	}
 

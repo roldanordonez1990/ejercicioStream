@@ -10,7 +10,7 @@ public class Product {
 
 
 
-	Product(String name, BigDecimal price, Tax tax) {
+	public Product(String name, BigDecimal price, Tax tax) {
 	this.name = name;
 	this.price = price;
 	this.tax = tax;
